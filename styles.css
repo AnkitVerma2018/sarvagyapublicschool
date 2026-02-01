@@ -463,3 +463,10 @@ hr {
     transform: translateY(-5px);
 }
 
+.management-img {
+    width: 100%;
+    max-width: 260px;   /* size control */
+    height: 320px;      /* fixed height */
+    
+    border-radius: 12px;
+}
