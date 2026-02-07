@@ -363,3 +363,11 @@ document.addEventListener("DOMContentLoaded", function () {
         gallery.appendChild(col);
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("openingPopup");
+    const closeBtn = document.querySelector(".close-btn");
+
+    closeBtn.addEventListener("click", function () {
+        popup.style.display = "none";
+    });
+});
